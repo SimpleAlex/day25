@@ -1,0 +1,87 @@
+body {
+  background: #bb72ab;
+
+}
+
+* {
+  font-family: 'Nunito', sans-serif;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+  outline: none;
+  border: none;
+  padding: 0;
+}
+
+::selection {
+  background: #212129;
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+}
+.title p {
+  color: #fff;
+  font-size: 1.3em;
+}
+
+.title .notice {
+  color: #fff;
+}
+.title .notice span {
+  color: #fff;
+  font-weight: bold;
+  border-bottom: #fff 2px solid;
+}
+
+/*STYLES*/
+#calculator {
+  width: 250px;
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 30px;
+  font-weight: bold;
+}
+#calculator .calculator-display {
+  width: 75%;
+  height: 20%;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+#calculator .calculator-button {
+  font: inherit;
+  width: 25%;
+  height: 20%;
+  background-color: #ddd;
+  border: 1px solid white;
+  outline: 0;
+  cursor: pointer;
+}
+#calculator .calculator-button:hover {
+  background-color: #aaaaaa;
+}
+#calculator .calculator-button.number {
+  background-color: #7ea;
+}
+#calculator .calculator-button.number:hover {
+  background-color: #1ce371;
+}
+#calculator .calculator-button.operation {
+  background-color: #f9b;
+}
+#calculator .calculator-button.operation:hover {
+  background-color: #ff3377;
+}
+#calculator .calculator-button.equals {
+  background-color: #88e;
+}
+#calculator .calculator-button.equals:hover {
+  background-color: #2f2fe1;
+}
